@@ -1,0 +1,6 @@
+for run in {1..5}; do ./push_swap `ruby -e "puts (1..5).to_a.shuffle.join(' ')"` | wc -l; done
+
+
+python3 pyviz.py `ruby -e "puts (0..3).to_a.shuffle.join(' ')"`
+
+
